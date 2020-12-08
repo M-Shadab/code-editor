@@ -1,5 +1,5 @@
 const mainTabDefaultCode =
-  "//This is main tab.\n//Only code in this tab gets evaluated.\n\nasync function respond(inputText) {\n\tconst OutputLanguage = 'German';\n\tconst translatedOutput = await CampK12.translate(inputText, 'English', OutputLanguage);\n\n\treturn `Oh in ${OutputLanguage} that is: ${translatedOutput}`;\n}";
+  "//This is main tab.\n//Only code in this tab gets evaluated.\n\nasync function respond(inputText) {\n\tconst OutputLanguage = 'German';\n\tconst translatedOutput = await CampK12.translate(inputText, 'English', OutputLanguage);\n\n\treturn 'Oh in '+ OutputLanguage + ' that is: '+ translatedOutput;\n}";
 
 const initialState = {
   tabs: {
