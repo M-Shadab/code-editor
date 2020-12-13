@@ -1,9 +1,9 @@
-import styled, { css } from "styled-components";
+import styled, { css } from "styled-components"
 
-const backgroundColor = "#1e1e1e"; //"#171717";
-const borderActiveColor = "rgba(255, 255, 255, 0.7)";
-const borderDisableColor = "rgba(255, 255, 255, 0.1)";
-const borderDisable = `1px solid ${borderDisableColor}`;
+const backgroundColor = "#1e1e1e" //"#171717";
+const borderActiveColor = "rgba(255, 255, 255, 0.7)"
+const borderDisableColor = "rgba(255, 255, 255, 0.1)"
+const borderDisable = `1px solid ${borderDisableColor}`
 
 export const Button = styled.button`
   font-size: 1.4rem;
@@ -34,4 +34,4 @@ export const Button = styled.button`
       opacity: 1;
     }
   }
-`;
+`

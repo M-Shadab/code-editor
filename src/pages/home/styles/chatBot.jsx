@@ -1,14 +1,17 @@
-import styled from "styled-components";
+import styled from "styled-components"
 
 export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-`;
+
+  > div {
+    width: 90%;
+  }
+`
 
 export const ChatBotContainer = styled.div`
-  width: 80%;
   height: 55%;
   padding: 1.25rem;
   border-radius: 4px;
@@ -32,7 +35,7 @@ export const ChatBotContainer = styled.div`
   > div:last-child {
     margin-bottom: 0;
   }
-`;
+`
 
 export const LeftMsgWrapper = styled.div`
   display: flex;
@@ -46,7 +49,7 @@ export const LeftMsgWrapper = styled.div`
     border-radius: 50%;
     margin-right: 0.8rem;
   }
-`;
+`
 
 export const RightMsgWrapper = styled(LeftMsgWrapper)`
   flex-direction: row-reverse;
@@ -54,7 +57,7 @@ export const RightMsgWrapper = styled(LeftMsgWrapper)`
     margin-right: 0;
     margin-left: 0.8rem;
   }
-`;
+`
 
 export const MsgContainer = styled.div`
   padding: 1rem 1.6rem;
@@ -64,10 +67,9 @@ export const MsgContainer = styled.div`
     font-size: 1.4rem;
     max-width: 20rem;
   }
-`;
+`
 
 export const InputWrapper = styled.div`
-  width: 80%;
   display: flex;
   margin-top: 3rem;
 
@@ -75,4 +77,4 @@ export const InputWrapper = styled.div`
     cursor: pointer;
     margin-left: -4.4rem;
   }
-`;
+`
